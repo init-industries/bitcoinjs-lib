@@ -1,17 +1,17 @@
 {
-  "name": "bitcoinjs-lib",
-  "version": "4.0.0",
-  "description": "Client-side Bitcoin JavaScript library",
+  "name": "decredjs",
+  "version": "0.0.1",
+  "description": "Decred-related functions in pure JavaScript · A bitcoinjs-lib fork",
   "main": "./src/index.js",
   "engines": {
     "node": ">=8.0.0"
   },
   "keywords": [
-    "bitcoinjs",
-    "bitcoin",
+    "decredjs",
+    "decred",
     "browserify",
     "javascript",
-    "bitcoinjs"
+    "cryptocurrency"
   ],
   "scripts": {
     "coverage-report": "nyc report --reporter=lcov",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/bitcoinjs-lib.git"
+    "url": "git+https://github.com/init-industries/decredjs.git"
   },
   "files": [
     "src"
@@ -60,5 +60,10 @@
     "proxyquire": "^2.0.1",
     "standard": "^11.0.1"
   },
-  "license": "MIT"
+  "author": "sneurlax <sneurlax@gmail.com> (https://github.com/sneurlax)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/init-industries/decredjs/issues"
+  },
+  "homepage": "https://github.com/init-industries/decredjs#readme"
 }
